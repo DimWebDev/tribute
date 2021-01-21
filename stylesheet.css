@@ -1,0 +1,106 @@
+body {
+	text-align: justify;
+	background: linear-gradient(-45deg, rgb(163, 199, 194), rgb(142, 191, 184), rgb(253, 189, 255), rgb(255, 255, 255));
+	font-family: sans-serif;
+	color: rgb(23, 35, 51);
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+
+}
+ h2 {
+ 	font-size: 3em;  
+	text-align: center;
+ }
+/*
+ .flex-container {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	flex-direction: column;
+ }
+
+ .item1 {
+ 	width: 20%;
+ 	background-color: gray;
+ }
+ .item2 {
+ 	width: 20%
+ 	background-color: gray;
+ }
+ */
+
+#main {
+	
+}
+#title {
+
+}
+
+#image {
+	height: 400px;
+	width: 100% ;
+
+} 
+#img-caption {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: 10px;
+	word-spacing: 1em;
+
+}
+
+#img-div {
+	border: 1em outset black;
+}
+ 
+ a:link {
+ 	color: yellow;
+ 	text-decoration: underline;
+ }
+ a:active {
+ 	color: purple;
+ 	text-decoration: none;
+ }
+ a:visited {
+ 	color: rgb(23, 35, 51);;
+ 	text-decoration: none;
+ }
+ a:hover {
+ 	color: red;
+ 	text-decoration: none;
+ }
+ img {
+ 	max-width: 100%;
+ 	display: block;
+ 	height: auto;   
+ }
+
+h3 {
+	text-align: center;
+	font-size: 3em;
+	color: rgb(23, 35, 51);
+}
+
+article {
+	padding: 4em;
+}
+
+.footer {
+	display: flex;
+	padding: 4em;
+	flex-direction: column;
+	justify-content: space-around;
+	background: linear-gradient(45deg, rgb(163, 199, 194),  rgb(142, 191, 184), rgb(253, 189, 255), rgb(255, 255, 255), rgb(142, 191, 184));
+}
+
+.item1 {
+	width: 30%
+	font-size: 10px;
+}
+
+.item2 {
+
+}
